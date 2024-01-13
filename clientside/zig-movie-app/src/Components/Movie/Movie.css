@@ -1,0 +1,16 @@
+.Movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 200px;
+    gap: 7px;
+    background-color: aliceblue;
+}
+
+.Movie .movie-details {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 10px;
+}
