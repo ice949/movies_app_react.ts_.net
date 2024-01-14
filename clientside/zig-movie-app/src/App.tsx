@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import MovieList from './Components/MovieList/MovieList';
+import HomePage from './Pages/HomePage/HomePage';
 
 class App extends React.Component {
   public render() {
+
     return (
       <div className="App">
-        <MovieList />
+        <HomePage />
       </div>
     );
   }
